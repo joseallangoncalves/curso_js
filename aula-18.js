@@ -12,4 +12,6 @@ try{
     console.log('resultado :', resultado);
 }catch (error){
     console.log(error.message);
+}finally{
+    console.log('Sistema finalizado');
 }
